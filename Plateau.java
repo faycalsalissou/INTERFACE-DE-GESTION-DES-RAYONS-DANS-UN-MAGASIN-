@@ -64,6 +64,12 @@ class Plateau {
             this.ajouterPiece(new Tavalier('B', new Position("F1")));
             this.ajouterPiece(new Tavalier('N', new Position("C8")));
             this.ajouterPiece(new Tavalier('N', new Position("F8")));
+
+			this.ajouterPiece(new Favalier('B', new Position("C2"))); // Favalier blanc
+			this.ajouterPiece(new Favalier('N', new Position("C7"))); // Favalier noir
+			this.ajouterPiece(new Favalier('B', new Position("F2"))); // Favalier blanc
+			this.ajouterPiece(new Favalier('N', new Position("F7"))); // Favalier noir
+
         }
     }
 
