@@ -1,12 +1,12 @@
 import java.util.ArrayList;
 
-class Tavalier extends Piece {
+class tavalier extends Piece {
     
-    public Tavalier(){
+    public tavalier(){
         super('B', new Position());
     }
 
-    public Tavalier(char couleur, Position position){
+    public tavalier(char couleur, Position position){
         super(couleur, position);
     }
 
